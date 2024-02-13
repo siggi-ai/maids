@@ -6,7 +6,7 @@
       v-on:click="getWaifu"
     >
       click image to update (random)
-      <img :src="apiResponseData.images[0].url" alt="waifu" class="w-96" />
+      <img :src="apiResponseData.images[0].url" alt="waifu" class="h-[80vh]" />
     </button>
 
     <!-- load image by selected option -->
