@@ -53,7 +53,7 @@ export default {
     const apiUrl = `https://api.waifu.im/search`;
     const params = {
       included_tags: 'maid',
-      height: ">=2000",
+      height: "<=2000",
     };
     const queryParams = new URLSearchParams(params);
     const requestUrl = `${apiUrl}?${queryParams}`;
@@ -86,7 +86,7 @@ export default {
       const apiUrl = `https://api.waifu.im/search`;
       const params = {
         included_tags: this.random_tag,
-        height: ">=2000",
+        height: "<=2000",
       };
       console.log(apiUrl);
 
@@ -112,7 +112,7 @@ export default {
       const apiUrl = `https://api.waifu.im/search`;
       const params = {
         included_tags: event.target.value,
-        height: ">=2000",
+        height: "<=2000",
       };
       const queryParams = new URLSearchParams(params);
       const requestUrl = `${apiUrl}?${queryParams}`;
