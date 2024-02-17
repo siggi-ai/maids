@@ -8,7 +8,11 @@ export default {
     extend: {
       fontFamily: {
         bangers: ['Bangers'],
+        honk: ['Honk'],
       },
+      backgroundImage: {
+        'cherry': 'url("/images/Anime-Cherry-Blossom-Background-Full-HD.jpg")',
+      }
     },
   },
   plugins: [],
